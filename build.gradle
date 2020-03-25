@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.sda.aka' version '1.0'
+}
+
+version '1.0-SNAPSHOT'
+
+application {
+    mainClassName = 'todoly.App'
+}
+
+run {
+    standardInput = System.in
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
