@@ -32,6 +32,10 @@ public class AppTest {
         app = new App(tempFile);
     }
 
+    /*
+     * The tests below can be clearly understood by the name of the methods.
+     */
+    
     @Test
     public void shouldAddAndPersistTaskWithValidInput() {
         String projectName = "Test Project";

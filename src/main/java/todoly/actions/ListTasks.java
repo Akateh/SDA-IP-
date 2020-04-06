@@ -10,6 +10,10 @@ import java.util.stream.Collectors;
 import static todoly.helper.DateHelper.getDueDateAsString;
 import static todoly.helper.TaskHelper.getIsDoneAsString;
 
+/*
+ * This class list all the tasks.
+ */
+
 public class ListTasks implements Action {
     private final Scanner scanner;
     private List<Task> taskStore;

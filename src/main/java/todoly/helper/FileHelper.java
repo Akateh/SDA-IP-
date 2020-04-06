@@ -3,6 +3,10 @@ package todoly.helper;
 import java.io.File;
 import java.io.IOException;
 
+/*
+ * Gets the files
+ */
+
 public class FileHelper {
     public static File getDataFile() throws IOException {
         String OS = (System.getProperty("os.name")).toUpperCase();

@@ -11,6 +11,10 @@ import java.util.Date;
 import static org.junit.Assert.*;
 import static todoly.helper.DateHelper.*;
 
+/*
+ * The tests below can be clearly understood by the name of the methods.
+ */
+
 public class DateHelperTest {
 
     @Test
