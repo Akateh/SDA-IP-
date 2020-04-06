@@ -6,6 +6,10 @@ import java.util.Date;
 
 import static junit.framework.TestCase.assertEquals;
 
+/*
+ * The tests below can be clearly understood by the name of the methods.
+ */
+
 public class TaskHelperTest {
 
     @Test
